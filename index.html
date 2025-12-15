@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Рюкзак впечатлений — Ира</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: #faf9f7;
+      color: #2b2b2b;
+      line-height: 1.6;
+    }
+    header {
+      padding: 32px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: 600;
+    }
+    header p {
+      margin-top: 12px;
+      color: #666;
+      max-width: 520px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 24px;
+      font-size: 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2b2b2b;
+      padding-bottom: 4px;
+    }
+    nav a:hover {
+      border-bottom: 1px solid #2b2b2b;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    section {
+      margin-bottom: 64px;
+    }
+    section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 32px;
+    }
+    .about img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .about p {
+      margin-bottom: 14px;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .tag {
+      background-color: #f0ede9;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+    .blog-post {
+      border-bottom: 1px solid #e5e1dc;
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+    }
+    .blog-post h3 {
+      margin: 0 0 8px 0;
+      font-size: 20px;
+    }
+    .blog-post p {
+      margin: 0;
+      color: #555;
+    }
+    .contact {
+      background-color: #f3f1ee;
+      padding: 32px;
+      border-radius: 12px;
+    }
+    footer {
+      text-align: center;
+      padding: 32px 20px;
+      font-size: 14px;
+      color: #777;
+    }
+    @media (max-width: 768px) {
+      .about {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Рюкзак впечатлений</h1>
+  <p>Личный сайт и блог про путешествия, движение, книги и жизнь без откладывания «на потом»</p>
+  <nav>
+    <a href="#about">Обо мне</a>
+    <a href="#blog">Блог</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="about">
+    <h2>Обо мне</h2>
+    <div class="about">
+      <img src="ira.jpg" alt="Ира" />
+      <div>
+        <p>Привет, меня зовут Ира :) Я живу в Москве и веду Telegram-канал «Рюкзак впечатлений».</p>
+        <p>Мне 32 года, я замужем за Ильей — мы вместе уже 17 лет. Я легкая на подъем и обожаю сложные маршруты, пересадки и поездки, которые требуют планирования.</p>
+        <p>По работе я менеджер по развитию бизнеса в Рекламной сети Яндекса. Раньше руководила продажами, но однажды решила сменить вектор.</p>
+        <p>Дома у нас живут два кота — Мистер Марс и Чубака. Один следит за медицинским бюджетом, второй — за настроением.</p>
+        <div class="tags">
+          <span class="tag">Путешествия</span>
+          <span class="tag">Планирование маршрутов</span>
+          <span class="tag">Спорт и питание</span>
+          <span class="tag">Книги</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Блог</h2>
+
+    <div class="blog-post">
+      <h3>Зачем нужен «Рюкзак впечатлений»</h3>
+      <p>Этот блог — продолжение моего Telegram-канала. Здесь я собираю поездки, маршруты, мысли и заметки о том, как наполнять жизнь впечатлениями.</p>
+    </div>
+
+    <div class="blog-post">
+      <h3>Путешествия без туристических ловушек</h3>
+      <p>Как находить атмосферные места, красивые закаты и не терять удовольствие от поездки.</p>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Контакты и консультации</h2>
+    <div class="contact">
+      <p>Если вам нужна помощь с планированием поездки, маршрутом или идеями — можно написать мне.</p>
+      <p><strong>Telegram:</strong> @yourtelegram</p>
+      <p><strong>Email:</strong> hello@example.com</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © Рюкзак впечатлений, 2025
+</footer>
+
+</body>
+</html>
