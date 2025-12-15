@@ -108,51 +108,38 @@
       .about {
         grid-template-columns: 1fr;
       }
-      .travel-item {
-        padding: 0 10px;
-      }
     }
-
+    
     .tg-button {
-      display: inline-block;
-      margin-top: 16px;
-      padding: 14px 28px;
-      background-color: #2b2b2b;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 28px;
-      font-size: 15px;
-      transition: background-color 0.2s ease, transform 0.2s ease;
-    }
+  display: inline-block;
+  margin-top: 16px;
+  padding: 14px 28px;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 28px;
+  font-size: 15px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
     .tg-button:hover {
-      background-color: #444;
-      transform: translateY(-1px);
-    }
+  background-color: #444;
+  transform: translateY(-1px);
+}
     .channel-btn {
-      display: inline-block;
-      padding: 12px 24px;
-      margin-top: 10px;
-      background-color: #2b2b2b; 
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 28px;
-      font-weight: 600;
-      transition: background-color 0.3s;
-    }
-    .channel-btn:hover {
-      background-color: #006699;
-    }
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 10px;
+  background-color: #2b2b2b; 
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 28px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
 
-    /* Картинки в travel-item адаптивные */
-    .travel-item img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-      margin: 20px 0;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+.channel-btn:hover {
+  background-color: #006699;
+}
 
   </style>
   
@@ -169,7 +156,7 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/105853857" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-
+  
 </head>
 <body>
 
@@ -193,8 +180,10 @@
         <p>Привет, меня зовут Ира :) Я живу в Москве и веду Telegram-канал «Рюкзак впечатлений».</p>
         <p>Я легкая на подъем и обожаю сложные маршруты, пересадки и поездки, которые требуют планирования.</p>
         <p>По работе я менеджер по развитию бизнеса в Рекламной сети Яндекса. Раньше руководила продажами, но однажды решила сменить вектор.</p>
+        
         <p>Дома у нас живут два кота — Чубака и Кьюриосити. Они оба черные и походи на большую и маленькую сову) </p>
         <p>У меня очень гибкий характер, однако, порой я страдаю избытками перфекционизма и упертостью :) </p>
+        
         <div class="tags">
           <span class="tag">Путешествия</span>
           <span class="tag">Планирование маршрутов</span>
@@ -207,6 +196,7 @@
 
   <section id="blog">
     <h2>О чем я пишу</h2>
+
     <div class="blog-post">
       <p>Этот лендинг — продолжение моего Telegram-канала. В канале я собираю маршруты, мысли и заметки о том, как наполнять жизнь впечатлениями.</p>
       <p>❤️ О чем я пишу </p>
@@ -214,50 +204,65 @@
       <p>Спорт и питание: я давно занимаюсь спортом, привела себя и свой внешний вид в порядок, слежу за КБЖУ – поэтому готова делиться своим опытом.</p>
       <p>Книги: что слушаю и читаю. Получается не так часто, но ведение Telegram-канала меня мотивирует читать больше :)</p>
     </div>
+
   </section>
 
   <section id="travel-posts">
-    <h2 style="text-align:center;">Мои путешествия</h2>
+  <h2 style="text-align:center;">Мои путешествия</h2>
 
-    <!-- Северная Осетия -->
-    <div class="travel-item">
-      <h3>Северная Осетия</h3>
-      <p>Маршруты и впечатления с походов и поездок по Северной Осетии — горы, природа и местная культура. В серии делюсь треками, фото и советами для путешественников.</p>
-      <img src="https://jing.yandex-team.ru/files/i-slivakova/2025-12-15_20-06-29.png" alt="Северная Осетия фото">
-      <a href="https://t.me/ira_bubnit/71" target="_blank" class="channel-btn">Читать первый пост</a>
-    </div>
+  <!-- Северная Осетия -->
+  <div class="travel-item" style="text-align:center; margin-bottom:40px;">
+    <h3>Северная Осетия</h3>
+    <p>Маршруты и впечатления с походов и поездок по Северной Осетии — горы, природа и местная культура. В серии делюсь треками, фото и советами для путешественников.</p>
+    <img src="https://jing.yandex-team.ru/files/i-slivakova/2025-12-15_20-06-29.png" 
+       alt="Северная Осетия фото" 
+       style="max-width:100%; height:auto; border-radius:12px; margin:20px 0;">
+    <a href="https://t.me/ira_bubnit/71" target="_blank" class="channel-btn">Читать первый пост</a>
+  </div>
 
-    <!-- Казахстан -->
-    <div class="travel-item">
-      <h3>Казахстан</h3>
-      <p>Серия постов о путешествиях по Казахстану: горы, озера и местная культура. Включаю маршруты, фотографии и личные советы для поездки.</p>
-      <img src="https://jing.yandex-team.ru/files/i-slivakova/2025-12-15_20-00-57.png" alt="Казахстан фото">
-      <a href="https://t.me/ira_bubnit/131" target="_blank" class="channel-btn">Читать первый пост</a>
-    </div>
+    
+  <!-- Казахстан -->
+  <div class="travel-item" style="text-align:center; margin-bottom:40px;">
+    <h3>Казахстан</h3>
+    <p>Серия постов о путешествиях по Казахстану: горы, озера и местная культура. Включаю маршруты, фотографии и личные советы для поездки.</p>
+    <img src="https://jing.yandex-team.ru/files/i-slivakova/2025-12-15_20-00-57.png" 
+       alt="Казахстан фото" 
+       style="max-width:100%; height:auto; border-radius:12px; margin:20px 0;">
+    <a href="https://t.me/ira_bubnit/131" target="_blank" class="channel-btn">Читать первый пост</a>
+  </div>
+  </section>
 
-    <!-- Тайланд -->
-    <div class="travel-item">
-      <h3>Тайланд</h3>
-      <p>Серия постов о моем путешествии по северу и югу Таиланда: города, пляжи, храмы и фестивали. Делюсь личными впечатлениями, лайфхаками и красивыми фотографиями.</p>
-      <img src="https://jing.yandex-team.ru/files/i-slivakova/2025-12-15_19-54-52.png" alt="Тайланд фото">
-      <a href="https://t.me/ira_bubnit/592" target="_blank" class="channel-btn">Читать первый пост</a>
-    </div>
+  <!-- Тайланд -->
+  <div class="travel-item" style="text-align:center; margin-bottom:40px;">
+    <h3>Тайланд</h3>
+    <p>Серия постов о моем путешествии по северу и югу Таиланда: города, пляжи, храмы и фестивали. Делюсь личными впечатлениями, лайфхаками и красивыми фотографиями.</p>
+      <img src="https://jing.yandex-team.ru/files/i-slivakova/2025-12-15_19-54-52.png" 
+       alt="Тайланд фото" 
+       style="max-width:100%; height:auto; border-radius:12px; margin:20px 0;">
+    <a href="https://t.me/ira_bubnit/592" target="_blank" class="channel-btn">Читать первый пост</a>
+  </div>
 
-    <!-- ЮАР -->
-    <div class="travel-item">
-      <h3>ЮАР</h3>
-      <p>Серия постов о поездке в Южную Африку: сафари, наблюдение за китами, винодельни и пешие маршруты. Личный опыт, фото и советы для будущих путешественников.</p>
-      <img src="https://jing.yandex-team.ru/files/i-slivakova/2025-12-15_20-04-39.png" alt="ЮАР фото">
-      <a href="https://t.me/ira_bubnit/430" target="_blank" class="channel-btn">Читать первый пост</a>
-    </div>
+  <!-- ЮАР -->
+  <div class="travel-item" style="text-align:center; margin-bottom:40px;">
+    <h3>ЮАР</h3>
+    <p>Серия постов о поездке в Южную Африку: сафари, наблюдение за китами, винодельни и пешие маршруты. Личный опыт, фото и советы для будущих путешественников.</p>
+    <img src="https://jing.yandex-team.ru/files/i-slivakova/2025-12-15_20-04-39.png" 
+       alt="ЮАР фото" 
+       style="max-width:100%; height:auto; border-radius:12px; margin:20px 0;">
+    <a href="https://t.me/ira_bubnit/430" target="_blank" class="channel-btn">Читать первый пост</a>
+  </div>
 
     <!-- Япония -->
-    <div class="travel-item">
-      <h3>Япония</h3>
-      <p>Серия постов с маршрутами по Токио, Киото, Камакуре и другим местам Японии. В этой серии я делюсь своими впечатлениями, лайфхаками и красивыми фотографиями.</p>
-      <img src="https://jing.yandex-team.ru/files/i-slivakova/2025-12-15_19-50-55.png" alt="Япония фото">
-      <a href="https://t.me/ira_bubnit/182" target="_blank" class="channel-btn">Читать первый пост</a>
-    </div>
+<div class="travel-item" style="text-align:center; margin-bottom:40px;">
+  <h3>Япония</h3>
+  <p>Серия постов с маршрутами по Токио, Киото, Камакуре и другим местам Японии. В этой серии я делюсь своими впечатлениями, лайфхаками и красивыми фотографиями.</p>
+  <img src="https://jing.yandex-team.ru/files/i-slivakova/2025-12-15_19-50-55.png" 
+       alt="Япония фото" 
+       style="max-width:100%; height:auto; border-radius:12px; margin:20px 0;">
+  <a href="https://t.me/ira_bubnit/182" target="_blank" class="channel-btn">Читать первый пост</a>
+</div>
+
+
 
   </section>
 
@@ -266,9 +271,12 @@
     <div class="contact">
       <p>Если вам нужна помощь с планированием поездки, маршрутом или идеями — можно написать мне.</p>
       <p><strong>Telegram личный:</strong> @i-slivakova</p>
-      <a href="https://t.me/ira_bubnit" class="tg-button" target="_blank">Мой телеграм канал "Рюкзак впечатлений"</a>
+      <a href="https://t.me/ira_bubnit" class="tg-button" target="_blank">
+  Мой телеграм канал "Рюкзак впечатлений"
+</a>
     </div>
-  </section>
+
+
 
 </main>
 
